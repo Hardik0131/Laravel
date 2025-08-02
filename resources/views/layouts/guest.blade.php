@@ -4,7 +4,7 @@
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Nothing</title>
+        <title>Infinity</title>
         <!-- plugins:css -->
         <link rel="stylesheet" href="{{ asset('css/materialdesignicons.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
@@ -23,7 +23,7 @@
         <!-- End layout styles -->
         <link rel="shortcut icon" href="{{ asset('css/logo2.png')}}" />
 
-        <title>{{ config('app.name', 'Nothing') }}</title>
+        <title>{{ config('app.name', 'Infinity') }}</title>
 
         
         <!-- Fonts -->
