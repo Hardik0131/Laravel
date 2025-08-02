@@ -35,11 +35,11 @@
                   <div class=" mt-3 mb-3 d-flex justify-content-between align-items-center">
                     <a href="{{ route('password.request') }}" class="auth-link text-primary">Forgot password?</a>
                   </div>
-                  <div class="mb-2 d-grid gap-2">
+                  <a href="{{ route('google.login')}}">
                       <button type="button" class="btn btn-block btn-facebook auth-form-btn" style="background-color: white; border: 2px solid black; color:black; "> 
-                        <a href="{{ route('google.login')}}"><i class="mdi mdi-google">     </i>Login with Google</a>
+                            <i class="mdi mdi-google"></i> Login with Google
                       </button>
-                  </div>
+                  </a>
                   <div class="text-center mt-4 font-weight-light"> Don't have an account? <a href="{{ route('register') }}" class="text-primary">Create</a>
                   </div>
                 </form>
