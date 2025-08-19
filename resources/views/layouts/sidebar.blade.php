@@ -48,7 +48,13 @@
         <div class="collapse" id="forms">
         <ul class="nav flex-column sub-menu">
             <li class="nav-item">
-            <a class="nav-link" href="{{ route('basic_elements')}}">Form Elements</a>
+            <a class="nav-link" href="{{ route('category.create')}}">Category Form</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ route('post.create')}}">Post Form</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{ route('basic_elements')}}">Form Layouts</a>
             </li>
         </ul>
         </div>
