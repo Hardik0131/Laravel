@@ -1,4 +1,6 @@
 <!-- partial:partials/_navbar.html -->
+@include('layouts.master1')
+
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
           <a class="navbar-brand brand-logo" href=""><img src="{{ asset('images/logo.svg') }}" alt="logo" /></a>
@@ -22,7 +24,7 @@
             <li class="nav-item nav-profile dropdown">
               <a class="nav-link" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-profile-img">
-                  <img src="{{ asset('images/faces/face2.jpg') }}" alt="image">
+                  <img src="{{ asset('images/faces/face28.jpg') }}" alt="image">
                   <span class="availability-status online"></span>
                 </div>
                 <div class="nav-profile-text">

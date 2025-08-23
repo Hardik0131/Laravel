@@ -11,6 +11,7 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\PostController;
 
 Route::middleware('guest')->group(function () {
     Route::get('register', [RegisteredUserController::class, 'create'])
@@ -61,5 +62,10 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware(['auth'])->group(function () {
     Route::get('category/create', [CategoryController::class, 'create'])->name('category.create');
-    Route::post('category/store', [CategoryController::class, 'store'])->name('category.store');
+    Route::post('category', [CategoryController::class, 'store'])->name('category.store');
+});
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('admin/post/create', [PostController::class, 'create'])->name('post.create');
+    Route::post('admin/post', [PostController::class, 'store'])->name('post.store');
 });

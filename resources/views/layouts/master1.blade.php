@@ -8,12 +8,12 @@
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{ asset('css/materialdesignicons.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/themify-icons.css')}}">
-    <link rel="stylesheet" href="{{ asset('vendor.bundle.base.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/vendor.bundle.base.css')}}">
     <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css')}}">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css')}}" />
-    <link rel="stylesheet" href="{{ ('css/bootstrap-datepicker.min.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.min.css') }}"> --}}
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->

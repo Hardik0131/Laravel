@@ -44,19 +44,7 @@ Route::get('basic_ui/typography',function(){
     return view('partial.typography');
 })->name('typography');
 
-// Route::get('category_table', function(){
-//     return view('partial.category');
-// })->name('category_table');
 
-// Route::get('post_table', function(){
-//     return view('partial.post');
-// })->name('post_table');
-
-Route::get('category/create', [CategoryController::class, 'create'])->name('category.create');
-Route::post('category/store', [CategoryController::class, 'store'])->name('category.store');
-
-Route::get('post/create', [PostController::class, 'create'])->name('post.create');
-Route::post('post/store', [PostController::class, 'store'])->name('post.store');
 
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle'])->name('google.login');
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
